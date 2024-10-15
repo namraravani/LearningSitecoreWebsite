@@ -99,12 +99,12 @@
     <Content Include="Areas\Blog\Content\css\main.css" />
     <Content Include="Areas\Blog\Views\Shared\web.config" />
     <Content Include="Areas\Blog\Views\Shared\_LayoutMaster.cshtml" />
-    <Content Include="Areas\Blog\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Blog\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Blog\Views\Page\Home.cshtml" />
     <Content Include="Areas\Blog\Views\Page\News.cshtml" />
     <Content Include="Areas\Blog\Views\Page\Contacts.cshtml" />
     <Content Include="Areas\Blog\Views\Page\About.cshtml" />
+    <Content Include="Areas\Blog\Views\_ViewStart.cshtml" />
     <None Include="packages.config" />
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />

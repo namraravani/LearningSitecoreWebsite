@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Sitecore.Mvc.Controllers;
 
 namespace SitecoreDemoWebsite.Areas.Blog.Controllers
 {
@@ -11,22 +12,22 @@ namespace SitecoreDemoWebsite.Areas.Blog.Controllers
 
         public ActionResult Home()
         {
-            return View();
+            return View("~/Areas/Blog/Views/Page/Home.cshtml");
         }
 
         public ActionResult News()
         {
-            return View();
+            return View("~/Areas/Blog/Views/Page/News.cshtml");
         }
 
         public ActionResult Contacts()
         {
-            return View();
+            return View("~/Areas/Blog/Views/Page/Contacts.cshtml");
         }
 
         public ActionResult About()
         {
-            return View();
+            return View("~/Areas/Blog/Views/Page/About.cshtml");
         }
     }
 }
