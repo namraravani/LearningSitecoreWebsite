@@ -1,2 +1,11 @@
-﻿@inherits System.Web.Mvc.WebViewPage
-<h1> Home </h1>
+﻿@inherits System.Web.Mvc.WebViewPage<SitecoreDemoWebsite.Areas.Blog.Models.PageModel>
+
+
+<h1>Home Page (No Glass Mapper)</h1>
+
+<div>
+    <h4>@Model.PageHeader</h4>
+
+    <p>@Model.Body</p>
+    <p>@Model.Date</p>
+</div>
